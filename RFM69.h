@@ -57,7 +57,7 @@
   #define RF69_PLATFORM RF69_PLATFORM_STM32
  #elif defined(STM32F2XX)
   #define RF69_PLATFORM RF69_PLATFORM_STM32F2
- #elif defined(RP2040)
+ #elif defined(RASPBERRY_PI_PICO)
   #define RF69_PLATFORM RF69_PLATFORM_RP2040
  #elif defined(USE_STDPERIPH_DRIVER)
   #define RF69_PLATFORM RF69_PLATFORM_STM32STD
@@ -142,7 +142,7 @@
   #define RF69_IRQ_PIN          4
 #elif defined(ESP32)
   #define RF69_IRQ_PIN          2
-#elif defined(RP2040)
+#elif defined(RASPBERRY_PI_PICO)
   #define RF69_IRQ_PIN          1
 #else
   #define RF69_IRQ_PIN          2
