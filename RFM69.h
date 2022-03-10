@@ -142,6 +142,8 @@
   #define RF69_IRQ_PIN          4
 #elif defined(ESP32)
   #define RF69_IRQ_PIN          2
+#elif defined(RP2040)
+  #define RF69_IRQ_PIN          1
 #else
   #define RF69_IRQ_PIN          2
 #endif
